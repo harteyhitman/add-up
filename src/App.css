@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #fff;
+}
+.todolist{
+    display: flex;
+    width: 80%;
+    height: 35vh;
+    margin: 50px auto;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    gap: 200px;
+    letter-spacing: 12px;
+    padding-bottom: 70px;
+    padding-left: 390px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/bg-desktop-dark.jpg);
+}
+.todolist img{
+    width: 20px;
+    height: 20px;
+}
+input{
+    position: relative;
+    top: -150px;
+    left: 565px;
+    width: 320px;
+    height: 40px;
+    outline: none;
+    text-align: start;
+    background: #25273C;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 0px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.remove{
+    color: white;
+    background-color: black;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    width: 70px;
+    position: relative;
+    top: -180px;
+    left: 830px;
+    z-index: 1;
+}
+.Add-items{
+    width: 50px;
+    position: relative;
+    top: -151px;
+    left: 190px;
+    background: #25273C;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    color: #757575;
+    font-weight: bold;
+    padding: 10px;
+}
